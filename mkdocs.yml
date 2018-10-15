@@ -1,12 +1,12 @@
 # Project Information
-site_name: PagerDuty Security Training
-site_description: Public versions of PagerDuty's employee security training courses.
-site_author: PagerDuty, Inc.
+site_name: ZappiStore Security Training
+site_description: Public versions of ZappiStore's employee security training courses.
+site_author: ZappiStore.
 site_favicon: 'assets/img/icon.png'
-site_url: https://sudo.pagerduty.com
+site_url: https://training.zappi-cypher.com
 
 # Copyright
-copyright: 'Copyright &copy; PagerDuty, Inc.'
+copyright: 'Copyright &copy; ZappiStore.'
 
 # Theme
 theme: 'material'
@@ -19,24 +19,23 @@ extra:
     primary: 'green'
     accent: 'blue grey'
   author:
-    github: 'PagerDuty'
-    twitter: 'PagerDuty'
+    github: 'Intellection'
 
 # Contents
 pages:
   - Overview: 'index.md'
   - For Everyone: 'for_everyone/index.md'
-  - For Engineers: 'for_engineers/index.md'
+  - For Engineers: 'for_build/index.md'
 
 # Analytics
-google_analytics: ['UA-8759953-1', 'auto']
+# google_analytics: ['UA-8759953-1', 'auto']
 
 # Extensions
-markdown_extensions:
-  - toc(permalink=#)
-  - sane_lists:
-  - admonition:
-  - meta:
-  - pymdownx.extra:
-  - pymdownx.mark:
-  - pymdownx.tilde:
+# markdown_extensions:
+#   - toc(permalink=#)
+#   - sane_lists:
+#   - admonition:
+#   - meta:
+#   - pymdownx.extra:
+#   - pymdownx.mark:
+#   - pymdownx.tilde:
